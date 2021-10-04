@@ -1,0 +1,223 @@
+{
+    "o:label": "Dataset",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The name of the dataset.",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "name",
+            "label": "name"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "A description of the dataset.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "description",
+            "label": "description"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The URL of the (open) license under which the dataset can be used.",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "customvocab:1",
+                    "label": "Licenses"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "license",
+            "label": "license"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The URL of dataset this dataset is based on.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "isBasedOn",
+            "label": "isBasedOn"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The date on which  the dataset description was originally published.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "datePublished",
+            "label": "datePublished"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The date on which  the dataset description was originally created.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "dateCreated",
+            "label": "dateCreated"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The date on which  the dataset description was last modified.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "numeric:timestamp",
+                    "label": "Timestamp"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "dateModified",
+            "label": "dateModified"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "URL of a webpage where the dataset is described.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "mainEntityOfPage",
+            "label": "mainEntityOfPage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "A citation or reference for the dataset.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "citation",
+            "label": "citation"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "Indicates the place(s) which are the focus of the dataset.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "spatialCoverage",
+            "label": "spatialCoverage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "Indicates the period that the dataset applies to.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "temporalCoverage",
+            "label": "temporalCoverage"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The publisher of the dataset.",
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "publisher",
+            "label": "publisher"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "The owner of the dataset.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "creator",
+            "label": "creator"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "One or more keyword which describe the dataset.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "keywords",
+            "label": "keywords"
+        },
+        {
+            "o:alternate_label": null,
+            "o:alternate_comment": "Distributions tell consumers where and how they can get the data. Distributions can be data dumps in RDF or some other format such as CSV, live SPARQL endpoints, OAI-PMH endpoints or other APIs.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource:item",
+                    "label": "Item"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "distribution",
+            "label": "distribution"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "Dataset",
+        "label": "Dataset"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "name",
+        "label": "name"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+        "vocabulary_label": "Schema.org",
+        "local_name": "description",
+        "label": "description"
+    }
+}
