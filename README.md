@@ -30,24 +30,20 @@ Because the resources are linked as Omeka items, the order of data entry is bott
 
 ## Datadump
 
-To make a datadump of the data catalog, including all datasets, distributions and organizations, a simple crawler is provided. This PHP based crawler uses the Omeka-S API. Besides fetching all sub-resources, all Omeka-S properties and classes are removed. 
+To make a datadump of the data catalog, including all datasets, distributions and organizations, a simple crawler is provided. This PHP based [crawler](src/datadump.php) uses the [EasyRDF](https://www.easyrdf.org/) to collect all resources via the Omeka-S API. Besides fetching all (sub-)resources, all Omeka-S properties and classes are removed. 
 
 ## Publishing
-The datadump is store in the files directory of Omeka-S which makes the file available for download.
-
-datadump 
-transformatie
-
+The datadumps (in Turtle, N-Triples, JSON-LD and RDF/XML) are store in the files directory of Omeka-S which makes the file available for download.
 
 ## Findability
 A way to make the dataset description findable is to make use of the [Well-Known Path Prefix](https://datatracker.ietf.org/doc/html/rfc5785) /.well-known/datacatalog
 
 This can be configured on webserver level (see [Apache example](apache-well-known-datacatalog.conf) for Gouda Timemachine), including conten-negotiation. The result is a redirect in your webbrowser from [/.well-known/datacatalog](/data/datasets/document/ark:/60537/b0POu1) to the Item page of the data catalog.
 
-When providing an Accept header, a Turtle, N-Triples, JSON-LD of RDF/XML can be retrieved. Example:
+When providing an Accept header, a Turtle, N-Triples, JSON-LD or RDF/XML can be retrieved. Example:
 
     curl -L -H "Accept: text/turtle" https://www.goudatijdmachine.nl/.well-known/datacatalog
         
 ## What's missing
-- Omeka-S item HTML page with a complete dataset description (in JSON-LD script block).
-- Use of organizational URI strategy, currently only "API URIs".
+- Omeka-S item HTML page with a complete dataset description (in JSON-LD script block), instead of the default Omeka-S "shallow" version (no sub-resources).
+- Use of organizational URI strategy/clean URL module, currently only "Omeka-S API URIs".
