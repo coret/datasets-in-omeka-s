@@ -1,23 +1,4 @@
-# datasets-in-omeka-s
-Howto and code to manage datasetdescriptions in Omeka-S.
-
-Configuration
-
-This howto provides the means to manages dataset descriptions as specified in https://netwerk-digitaal-erfgoed.github.io/requirements-datasets/#organization-overview
-
-Two propertie of a dataset are based on a custom vocabulairy (this requires the Custom vocabs model [https://omeka.org/s/modules/CustomVocab/])
-- Licenses
-- Media types
-
-The resource templates necessary for managing datasets are:
-- Datacatalog
-- Datasets
-- Distribution
-- Organization
-
-Data entry
-
-Because the resources are linked as Omeka items, the order of data entry is bottom-up. So first add the organization which are to be used in the dataset(s).# Managing datasets in Omeka-S
+# Managing datasets in Omeka-S
 
 A howto and code to manage and publish datasetdescriptions in Omeka-S. It is the description of the implementation for [datasets for the Gouda Timemachine](https://www.goudatijdmachine.nl/data/datasets/start).
 
@@ -28,7 +9,7 @@ This howto provides the means to manages dataset descriptions as specified in ht
 Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs/) which requires the [Custom vocabs](https://omeka.org/s/modules/CustomVocab/) module:
 - [Licenses](custom%20vocabs/Licenses.txt)
 - [Media types](custom%20vocabs/Media%20types.txt)
-- 
+
 The [resource templates](resource%20templates/) necessary for managing datasets are:
 - [Datacatalog](resource%20templates/Datacatalog.json)
 - [Datasets](resource%20templates/Datasets.json)
@@ -70,19 +51,3 @@ When providing an Accept header, a Turtle, N-Triples, JSON-LD of RDF/XML can be 
 ## What's missing
 - Omeka-S item HTML page with a complete dataset description (in JSON-LD script block).
 - Use of organizational URI strategy, currently only "API URIs".
-Then per dataset, make entries for the distribution. 
-Next, the datasets can be described, linking them to distributions (Items) and organizations (Items).
-Finally, a data catalog can be made, this includes links to all datasets (Items).
-
-Datadump
-
-alle resource templates exporteren (datacatalog, dataset, datadownload, organisatie) 
-
-datadump 
-transformatie
-
-howto curl catalog 
-
-dublin core omeka-s sharon
-
-content-negotiation
