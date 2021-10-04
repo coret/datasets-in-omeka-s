@@ -1,10 +1,8 @@
 # Managing datasets in Omeka-S
 
-A howto and code to manage and publish datasetdescriptions in Omeka-S. It is the description of the implementation for [datasets for the Gouda Timemachine](https://www.goudatijdmachine.nl/data/datasets/start).
+This howto provides the means to manage dataset descriptions in [Omeka-S](https://omeka.org/s/) as specified in [Requirements for datasets](https://netwerk-digitaal-erfgoed.github.io/requirements-datasets/). It's also the description of the implementation for [datasets for the Gouda Timemachine](https://www.goudatijdmachine.nl/data/datasets/start).
 
 ## Configuration
-
-This howto provides the means to manages dataset descriptions as specified in https://netwerk-digitaal-erfgoed.github.io/requirements-datasets/#organization-overview
 
 Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs/) which requires the [Custom vocabs](https://omeka.org/s/modules/CustomVocab/) module:
 - [Licenses](custom%20vocabs/Licenses.txt)
