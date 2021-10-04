@@ -12,7 +12,7 @@ Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs
 
 The [resource templates](resource%20templates/) necessary for managing datasets are:
 - [Datacatalog](resource%20templates/Datacatalog.json)
-- [Datasets](resource%20templates/Datasets.json)
+- [Dataset](resource%20templates/Dataset.json)
 - [Distribution](resource%20templates/Distribution.json)
 - [Organization](resource%20templates/Organization.json)
 
