@@ -36,7 +36,7 @@ The datadumps (in Turtle, N-Triples, JSON-LD and RDF/XML) are store in the files
 ## Findability
 A way to make the dataset description findable is to make use of the [Well-Known Path Prefix](https://datatracker.ietf.org/doc/html/rfc5785) /.well-known/datacatalog
 
-This can be configured on webserver level (see [Apache example](apache-well-known-datacatalog.conf) for Gouda Timemachine), including conten-negotiation. The result is a redirect in your webbrowser from [/.well-known/datacatalog](/data/datasets/document/ark:/60537/b0POu1) to the Item page of the data catalog.
+This can be configured on webserver level (see [Apache example](apache-well-known-datacatalog.conf) for Gouda Timemachine), including conten-negotiation. The result is a redirect in your webbrowser from [/.well-known/datacatalog](https://www.goudatijdmachine.nl/.well-known/datacatalog) to the Item page of the data catalog.
 
 When providing an Accept header, a Turtle, N-Triples, JSON-LD or RDF/XML can be retrieved. Example:
 
