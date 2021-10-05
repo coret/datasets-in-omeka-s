@@ -108,6 +108,16 @@
             "vocabulary_label": "Schema.org",
             "local_name": "mainEntityOfPage",
             "label": "mainEntityOfPage"
+        },{
+            "o:alternate_label": null,
+            "o:alternate_comment": "A reference to a dataset on which this dataset was based.",
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "https:\/\/schema.org\/",
+            "vocabulary_label": "Schema.org",
+            "local_name": "isBasedOn",
+            "label": "isBasedOn"
         },
         {
             "o:alternate_label": null,
