@@ -4,6 +4,8 @@ This howto provides the means to manage dataset descriptions in [Omeka-S](https:
 
 ## Configuration
 
+The dataset descriptions use the schema.org vocabulairy. Importing the [Vocabulairy Definition Files from schema.org](https://schema.org/docs/developers.html#defs) is a prerequisite.
+
 Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs/) which requires the [Custom vocabs](https://omeka.org/s/modules/CustomVocab/) module:
 - [Licenses](custom%20vocabs/Licenses.txt)
 - [Media types](custom%20vocabs/Media%20types.txt)
