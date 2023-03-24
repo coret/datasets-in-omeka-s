@@ -150,7 +150,7 @@ application/jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json
-application/lgr+xml
+application/lgr+xml+gzip
 application/link-format
 application/load-control+xml
 application/lost+xml
@@ -201,7 +201,9 @@ application/msword
 application/mud+json
 application/mxf
 application/n-quads
+application/n-quads+gzip
 application/n-triples
+application/n-triples+gzip
 application/nasdata
 application/news-checkgroups
 application/news-groupinfo
@@ -256,6 +258,7 @@ application/QSIG
 application/raptorfec
 application/rdap+json
 application/rdf+xml
+application/rdf+xml+gzip
 application/reginfo+xml
 application/relax-ng-compact-syntax
 application/remote-printing
@@ -1362,6 +1365,7 @@ text/cache-manifest
 text/calendar
 text/css
 text/csv
+text/csv+gzip
 text/csv-schema
 text/directory
 text/dns
@@ -1394,6 +1398,7 @@ text/t140
 text/tab-separated-values
 text/troff
 text/turtle
+text/turtle+gzip
 text/ulpfec
 text/uri-list
 text/vcard
