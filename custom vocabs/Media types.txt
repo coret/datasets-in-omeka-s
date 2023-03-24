@@ -150,7 +150,8 @@ application/jwt
 application/kpml-request+xml
 application/kpml-response+xml
 application/ld+json
-application/lgr+xml+gzip
+application/ld+json+gzip
+application/lgr+xml
 application/link-format
 application/load-control+xml
 application/lost+xml
