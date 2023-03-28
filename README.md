@@ -12,11 +12,11 @@ Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs
 - [Languages tags](custom%20vocabs/LDS%20IETF%20Language%20Tags.txt)
 
 The [resource templates](resource%20templates/) necessary for managing datasets are:
-- [Datacatalog](resource%20templates/LDS Datacatalog.json)
-- [Dataset](resource%20templates/LDS Dataset.json)
-- [Distribution](resource%20templates/LDS Distribution.json)
-- [Organization](resource%20templates/LDS Organization.json)
-- [Person](resource%20templates/LDS Person.json)
+- [Datacatalog](resource%20templates/LDS%20Datacatalog.json)
+- [Dataset](resource%20templates/LDS%20Dataset.json)
+- [Distribution](resource%20templates/LDS%20Distribution.json)
+- [Organization](resource%20templates/LDS%20Organization.json)
+- [Person](resource%20templates/LDS%20Person.json)
 
 ## Data entry
 
