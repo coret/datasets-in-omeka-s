@@ -7,14 +7,16 @@ This howto provides the means to manage dataset descriptions in [Omeka-S](https:
 The dataset descriptions use the schema.org vocabulairy. Importing the [Vocabulairy Definition Files from schema.org](https://schema.org/docs/developers.html#defs) is a prerequisite.
 
 Some properties of a dataset are based on a [custom vocabulairy](custom%20vocabs/) which requires the [Custom vocabs](https://omeka.org/s/modules/CustomVocab/) module:
-- [Licenses](custom%20vocabs/Licenses.txt)
-- [Media types](custom%20vocabs/Media%20types.txt)
+- [Licenses](custom%20vocabs/LDS%20Licenses.txt)
+- [Media types](custom%20vocabs/LDS%20Media%20Types.txt)
+- [Languages tags](custom%20vocabs/LDS%20IETF%20Language%20Tags.txt)
 
 The [resource templates](resource%20templates/) necessary for managing datasets are:
-- [Datacatalog](resource%20templates/Datacatalog.json)
-- [Dataset](resource%20templates/Dataset.json)
-- [Distribution](resource%20templates/Distribution.json)
-- [Organization](resource%20templates/Organization.json)
+- [Datacatalog](resource%20templates/LDS Datacatalog.json)
+- [Dataset](resource%20templates/LDS Dataset.json)
+- [Distribution](resource%20templates/LDS Distribution.json)
+- [Organization](resource%20templates/LDS Organization.json)
+- [Person](resource%20templates/LDS Person.json)
 
 ## Data entry
 
