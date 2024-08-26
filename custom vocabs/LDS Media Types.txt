@@ -311,6 +311,8 @@ application/smil+xml
 application/smpte336m
 application/soap+fastinfoset
 application/soap+xml
+application/sparql-results+json
+application/sparql-results+xml
 application/sparql-query
 application/spirits-event+xml
 application/sql
